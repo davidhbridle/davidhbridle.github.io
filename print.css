@@ -1,0 +1,102 @@
+/* !----STRUCTURE----*/
+
+body {
+	background-color: #edc2b1;
+	margin: 0 auto;
+	font-family: 'EB Garamond', serif;;
+	font-size: 1rem;
+	line-height: 1.3rem;
+	
+}
+
+section {
+	background-color: white;
+	padding: 8%;
+	margin: 7%;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+}
+
+#top {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	-moz-column-fill: balance; /* Firefox */
+    -webkit-column-fill: balance;
+    column-fill: balance;
+    font-size: 0.8rem;
+    margin-bottom: 50px;
+    
+	
+}
+
+#two-column {
+	column-count: 2;
+	-moz-column-fill: balance; /* Firefox */
+    column-fill: balance;
+    column-gap: 30px;	
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+/*
+#content-2-column img {
+	border: solid 5px #84bf89;
+	padding: 10px;
+}
+*/
+
+.column img {
+	width: 100%;
+}
+
+.underline {
+	border-bottom: lightgrey 1px solid;
+}
+
+.thin {
+	padding: 20%;
+}
+
+
+
+/*!----TYPOGRAPHY----*/
+
+h1 {
+	font-family: 'EB Garamond', serif;
+	font-size: 2.3rem;
+	column-span: all;
+	line-height: 2.2rem
+}
+
+h2 {
+	
+}
+
+h3 {
+	
+}
+
+p {
+	font-family: 'EB Garamond', serif;
+	margin-top: 0px;
+}
+
+.quote {
+	/* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+	font-size: 1.8rem;
+	line-height: 3rem;
+	font-weight: 300;
+	font-style: italic;
+	color: white;
+	text-align: center;
+	margin: 25px 0px;
+	background-color: black;
+}
+
+/* !----CSS GRID---- */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+}
