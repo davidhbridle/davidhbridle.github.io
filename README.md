@@ -1,2 +1,2 @@
 # davidhbridle
-Making a website, fully coded by me, and testing / playing with many code.
+Just creating a simple SlideShow to learn Code, and create a business concept.

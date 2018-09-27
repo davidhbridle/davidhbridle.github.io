@@ -79,7 +79,7 @@ section {
 
 h1 {
 	font-family: 'EB Garamond', serif;
-	font-size: 2.3rem;
+	font-size: 4rem;
 	column-span: all;
 	line-height: 2.2rem;
 	text-transform: capitalize;
@@ -87,7 +87,7 @@ h1 {
 
 h2 {
 	font-family: 'EB Garamond', serif;
-	font-size: 1.7rem;
+	font-size: 2.3srem;
 	column-span: all;
 	line-height: 2.2rem;
 	text-transform: capitalize;
@@ -111,14 +111,19 @@ p {
 	line-height: 3rem;
 	font-weight: 300;
 	font-style: italic;
-	color: white;
 	text-align: center;
-	margin: 25px 0px;
-	background-color: #58A094;
-	margin-left: -50px;
-	margin-right: -90px;
+	margin: 25px 0px 25px 0px;
 	padding: 5%;
 	border-radius: 3px;
+	background: -moz-linear-gradient(140deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+	background: -webkit-linear-gradient(140deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+	background: linear-gradient(140deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	text-fill-color: transparent;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
 }
 
 a:link{
