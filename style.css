@@ -79,7 +79,7 @@ section {
 
 h1 {
 	font-family: 'EB Garamond', serif;
-	font-size: 4rem;
+	font-size: 8rem;
 	column-span: all;
 	line-height: 2.2rem;
 	text-transform: capitalize;
@@ -87,11 +87,12 @@ h1 {
 
 h2 {
 	font-family: 'EB Garamond', serif;
-	font-size: 2.3rem;
+	font-size: 3.3rem;
 	column-span: all;
 	line-height: 2.2rem;
 	text-transform: capitalize;
 	font-weight: normal;
+	text-align: center;
 	
 }
 
@@ -147,7 +148,7 @@ a:visited{
 .bignumber {
 	font-size: 8rem;
 	text-align: center;
-	margin-bottom: -50px;
+	margin-bottom: -70px;
 	color: rgba(238, 195, 178, 0.27)
 }
 
