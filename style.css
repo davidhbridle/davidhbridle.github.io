@@ -25,7 +25,7 @@ section {
     -webkit-column-fill: balance;
     column-fill: balance;
     font-size: 0.8rem;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     
 	
 }
@@ -79,7 +79,7 @@ section {
 
 h1 {
 	font-family: 'EB Garamond', serif;
-	font-size: 8rem;
+	font-size: 4rem;
 	column-span: all;
 	line-height: 2.2rem;
 	text-transform: capitalize;
@@ -87,9 +87,9 @@ h1 {
 
 h2 {
 	font-family: 'EB Garamond', serif;
-	font-size: 3.3rem;
+	font-size: 5rem;
 	column-span: all;
-	line-height: 2.2rem;
+	line-height: 4.8rem;
 	text-transform: capitalize;
 	font-weight: normal;
 	text-align: center;
@@ -146,9 +146,10 @@ a:visited{
 }
 
 .bignumber {
-	font-size: 8rem;
+	font-size: 15rem;
 	text-align: center;
-	margin-bottom: -70px;
+	margin-bottom: -150px;
+	margin-top: 50px;
 	color: rgba(238, 195, 178, 0.27)
 }
 
