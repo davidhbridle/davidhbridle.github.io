@@ -25,7 +25,7 @@ section {
     -webkit-column-fill: balance;
     column-fill: balance;
     font-size: 0.8rem;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     
 	
 }
@@ -149,8 +149,8 @@ a:visited{
 .bignumber {
 	font-size: 15rem;
 	text-align: center;
-	margin-bottom: -160px;
-	margin-top: 50px;
+	margin-bottom: -200px;
+	margin-top: 100px;
 	color: rgba(238, 195, 178, 0.5);
 	z-index: 2;
 }
@@ -168,8 +168,8 @@ background: -moz-linear-gradient(139deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1
 background: -webkit-linear-gradient(139deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 background: linear-gradient(139deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	z-index: 1;
 	margin: auto;
 	margin-top: 60px;
