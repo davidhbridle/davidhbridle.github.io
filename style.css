@@ -94,7 +94,6 @@ h2 {
 	font-weight: normal;
 	text-align: center;
 	z-index: 3;
-	margin-top: -150px;
 	
 }
 
@@ -150,9 +149,9 @@ a:visited{
 .bignumber {
 	font-size: 15rem;
 	text-align: center;
-	margin-bottom: -150px;
+	margin-bottom: -160px;
 	margin-top: 50px;
-	color: rgba(238, 195, 178, 0.27);
+	color: rgba(238, 195, 178, 0.5);
 	z-index: 2;
 }
 
@@ -169,11 +168,11 @@ background: -moz-linear-gradient(139deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1
 background: -webkit-linear-gradient(139deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 background: linear-gradient(139deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	z-index: 1;
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 60px;
 }
 
 .blob-2 {
