@@ -134,6 +134,12 @@ p {
 	-moz-text-fill-color: transparent;
 }
 
+a:visited{
+	text-decoration: line-through;
+	color: black;
+	
+}
+
 a:link{
 	text-decoration: none;
 	color: black;
@@ -146,11 +152,7 @@ a:hover {
 	
 }
 
-a:visited{
-	text-decoration: line-through;
-	color: black;
-	
-}
+
 
 .bignumber {
 	font-size: 15rem;
