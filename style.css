@@ -83,6 +83,7 @@ h1 {
 	column-span: all;
 	line-height: 2.2rem;
 	text-transform: capitalize;
+	font-weight: normal;
 }
 
 h2 {
