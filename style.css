@@ -179,7 +179,7 @@ ul {
 	z-index: 1;
 	margin: auto;
 	margin-top: 60px;
-	box-shadow: inset 0px 8px 13px black;
+
 }
 
 .blob-2 {
@@ -195,7 +195,6 @@ ul {
 	z-index: 1;
 	margin: auto;
 	margin-top: 60px;
-	box-shadow: inset 0px 8px 13px black;
 
 }
 
@@ -211,8 +210,9 @@ ul {
 	z-index: 1;
 	margin: auto;
 	margin-top: 60px;
-	box-shadow: inset 0px 8px 13px black;
 }
+
+/* !----BLOBSTITLE---- */
 
 .blob-4 {
 	border-radius: 26% 74% 70% 30% / 30% 50% 50% 70% ;
