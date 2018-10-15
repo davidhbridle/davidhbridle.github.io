@@ -25,7 +25,7 @@ section {
     -webkit-column-fill: balance;
     column-fill: balance;
     font-size: 0.8rem;
-    margin-bottom: 150px;
+    margin-bottom: 140px;
     
 	
 }
@@ -150,7 +150,7 @@ a:visited{
 	font-size: 15rem;
 	text-align: center;
 	margin-bottom: -200px;
-	margin-top: 100px;
+	margin-top: 50px;
 	color: rgba(238, 195, 178, 0.5);
 	z-index: 2;
 }
