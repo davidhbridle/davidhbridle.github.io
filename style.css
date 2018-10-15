@@ -192,6 +192,21 @@ ul {
 	box-shadow: inset 0px 8px 13px black;
 
 }
+
+.blob-3 {
+	border-radius: 42% 58% 76% 24% / 47% 28% 72% 53%;
+	background: rgb(2,0,36);
+	background: -moz-linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	background: -webkit-linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+	height: 300px;
+	width: 300px;
+	z-index: 1;
+	margin: auto;
+	margin-top: 60px;
+	box-shadow: inset 0px 8px 13px black;
+}
   	
 
 /* !----backtotopbutton---- */
