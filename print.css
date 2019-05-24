@@ -17,15 +17,7 @@ section {
 }
 
 #top {
-	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
-	-moz-column-fill: balance; /* Firefox */
-    -webkit-column-fill: balance;
-    column-fill: balance;
-    font-size: 0.8rem;
-    margin-bottom: 50px;
-    
+	display: hidden;
 	
 }
 
