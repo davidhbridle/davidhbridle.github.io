@@ -1,16 +1,48 @@
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+(() => {
+    const scrollButton = document.getElementById('myBtn');
 
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
+    if (!scrollButton) {
+        return;
     }
-}
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+    let isVisible = false;
+    let scheduled = false;
+    const scheduler = window.requestAnimationFrame
+        ? window.requestAnimationFrame.bind(window)
+        : (callback) => window.setTimeout(callback, 16);
+
+    scrollButton.tabIndex = -1;
+
+    const updateVisibility = () => {
+        scheduled = false;
+        const shouldShow = window.pageYOffset > 20;
+
+        if (shouldShow === isVisible) {
+            return;
+        }
+
+        isVisible = shouldShow;
+        scrollButton.classList.toggle('is-visible', isVisible);
+        scrollButton.setAttribute('aria-hidden', String(!isVisible));
+        scrollButton.tabIndex = isVisible ? 0 : -1;
+    };
+
+    const requestUpdate = () => {
+        if (scheduled) {
+            return;
+        }
+
+        scheduled = true;
+        scheduler(updateVisibility);
+    };
+
+    window.addEventListener('scroll', requestUpdate, { passive: true });
+
+    scrollButton.addEventListener('click', (event) => {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    updateVisibility();
+})();
+
