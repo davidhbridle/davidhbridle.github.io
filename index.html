@@ -7,20 +7,41 @@
 		<link rel="stylesheet" href="print.css" title="CSS Print Styles for Siddhartha" type="text/css" media="print" charset="utf-8">
 		<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<link rel="stylesheet" id="font-awesome-css" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" type="text/css" media="screen">
-		<script src="javascript/script.js"></script>
+                <script src="javascript/script.js" defer></script>
 		
 		
 		
 	</head>
-	<body>
-		<button onclick="topFunction()" id="myBtn" title="Go to top">top</button>
-		
-		<section style="text-align: center" class="cover">
-			<h1 class="storytitle">Siddhartha</h1>
-			
-			<div class="blob-2b"></div>
+        <body>
+                <a class="skip-link" href="#story-start">Skip to main content</a>
+                <button id="myBtn" type="button" aria-label="Scroll to top" aria-hidden="true" tabindex="-1">Top</button>
+                <nav class="chapter-nav" aria-label="Chapter navigation">
+                        <div class="chapter-nav__inner">
+                                <button class="chapter-nav__toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="chapter-nav-list">
+                                        <span class="chapter-nav__title">Chapters</span>
+                                </button>
+                                <ul id="chapter-nav-list" class="chapter-nav__list" hidden>
+                                        <li><a class="chapter-nav__link" href="#son">1. The Son of the Brahman</a></li>
+                                        <li><a class="chapter-nav__link" href="#samanas">2. With The Samanas</a></li>
+                                        <li><a class="chapter-nav__link" href="#gotama">3. Gotama</a></li>
+                                        <li><a class="chapter-nav__link" href="#awakening">4. Awakening</a></li>
+                                        <li><a class="chapter-nav__link" href="#kamala">5. Kamala</a></li>
+                                        <li><a class="chapter-nav__link" href="#childlike">6. With The Childlike People</a></li>
+                                        <li><a class="chapter-nav__link" href="#sansara">7. Sansara</a></li>
+                                        <li><a class="chapter-nav__link" href="#river">8. By The River</a></li>
+                                        <li><a class="chapter-nav__link" href="#ferryman">9. The Ferryman</a></li>
+                                        <li><a class="chapter-nav__link" href="#theson">10. The Son</a></li>
+                                        <li><a class="chapter-nav__link" href="#om">11. OM</a></li>
+                                        <li><a class="chapter-nav__link" href="#govinda">12. Govinda</a></li>
+                                </ul>
+                        </div>
+                </nav>
+
+                <main id="story-start" tabindex="-1">
+                <section style="text-align: center" class="cover">
+                        <h1 class="storytitle">Siddhartha</h1>
+
+                        <div class="blob-2b"></div>
 			<div class="blob-3c"></div>
 			<div class="blob-1a"></div>
 			
@@ -28,46 +49,15 @@
 <!-- 			<img src="images/cover-2.jpg" alt="Siddhartha - by Hermann Hesse" width="80%" class="shadow"> -->
 		</section>
 		
-		<section>
-			
-			<h1 class="underline">Contents</h1>
-				<div class="col1-2">
+                <section>
+                        <div id="top">
+                                <p>SIDDHARTHA <i>by</i> HERMANN HESSE</p>
+                                <p style="text-align: center"><i>an Indian tale</i></p>
+                                <p style="text-align: right">Published by S. Fischer Verlag (1922)</p>
 
-				<h2 style="text-align: center;">I</h2>
-					<ul>
-						<a href="#son"><li>1. The Son of the Brahman</li></a>
-						<a href="#samanas"><li>2. With The Samanas</li></a>
-						<a href="#gotama"><li>3. Gotama</li></a>
-						<a href="#awakening"><li>4. Awakening</li></a>
-					</ul>
-			</div>
-			<div class="col2-2">
-				
-				<h2 style="text-align: center;">II</h2>
-					<ul>
-						<a href="#kamala"><li>5. Kamala</li></a>
-						<a href="#childlike"><li>6. With The Childlike People</li></a>
-						<a href="#sansara"><li>7. Sansara</li></a>
-						<a href="#river"><li>8. By The River</li></a>
-						<a href="#ferryman"><li>9. The Ferryman</li></a>
-						<a href="#theson"><li>10. The Son</li></a>
-						<a href="#om"><li>11. OM</li></a>
-						<a href="#govinda"><li>12. Govinda</li></a>
-					</ul>
-			</div>
-			<br clear="both">
-		</section>
-		
-		
-		<section>
-		<div id="top">
-			<p>SIDDHARTHA <i>by</i> HERMANN HESSE</p>
-			<p style="text-align: center"><i>an Indian tale</i></p>
-			<p style="text-align: right">Published by S. Fischer Verlag (1922)</p>
-		
-		</div>
-		
-		<div class="underline">
+                        </div>
+
+                        <div class="underline">
 			<h1 class="bignumber">1</h1>
 			<div class="blob"></div>
 			<h2 id="son">The Son of the Brahman</h2>
@@ -76,7 +66,7 @@
 		
 		
 		
-		<div class="thin">
+                        <div class="thin">
 						
 						
 			
@@ -3941,23 +3931,16 @@
 			
 			</section>
 			
-			<section>
-				<h3 class="underline">AUTHOR SECTION</h2>
-				<img src="images/hesse-e1317570056487.jpg" alt="hesse-e1317570056487" width="50%">
-				<p>Hermann Karl Hesse (German: [ˈhɛɐ̯man ˈhɛsə]; 2 July 1877 – 9 August 1962) was a German-born poet, novelist, and painter. His best-known works include Demian, Steppenwolf, Siddhartha, and The Glass Bead Game, each of which explores an individual's search for authenticity, self-knowledge and spirituality. In 1946, he received the Nobel Prize in Literature</p>
-				<p><a href="https://en.m.wikipedia.org/wiki/Hermann_Hesse">Wikipedia Entry</a>
-			</section>
-					
-			
-					
-					
-			<a href=”#top” class=”back-to-top” style=”display: inline;”>
-			 
-			<i class=”fa fa-arrow-circle-up”></i>
-			 
-			</a>
-				</body>
-			</html>
+                        <section>
+                                <h3 class="underline">AUTHOR SECTION</h3>
+                                <img src="images/hesse-e1317570056487.jpg" alt="hesse-e1317570056487" width="50%">
+                                <p>Hermann Karl Hesse (German: [ˈhɛɐ̯man ˈhɛsə]; 2 July 1877 – 9 August 1962) was a German-born poet, novelist, and painter. His best-known works include Demian, Steppenwolf, Siddhartha, and The Glass Bead Game, each of which explores an individual's search for authenticity, self-knowledge and spirituality. In 1946, he received the Nobel Prize in Literature</p>
+                                <p><a href="https://en.m.wikipedia.org/wiki/Hermann_Hesse">Wikipedia Entry</a></p>
+                        </section>
+
+                </main>
+        </body>
+</html>
 			
 			
 			
