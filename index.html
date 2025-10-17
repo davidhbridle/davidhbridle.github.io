@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="print.css" title="CSS Print Styles for Siddhartha" type="text/css" media="print" charset="utf-8">
 		<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eS2v9E5/gkLBCEgoPzSAIrlCMx4742Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
                 <script src="javascript/script.js" defer></script>
 		
 		
@@ -36,7 +37,10 @@
                 </nav>
 
                 <main id="story-start" tabindex="-1">
-                <section style="text-align: center" class="cover">
+                        <div class="utility-actions" data-html2canvas-ignore="true">
+                                <button id="downloadPdf" type="button" class="download-button" data-loading-text="Preparing download…">Download PDF</button>
+                        </div>
+                        <section style="text-align: center" class="cover">
                         <h1 class="storytitle">Siddhartha</h1>
 
                         <div class="blob-2b"></div>
