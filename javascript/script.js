@@ -54,9 +54,15 @@
         return;
     }
 
-    const pdfGenerator = window.html2pdf;
+    const pdfBundle = window.html2pdf;
+    const pdfGenerator =
+        typeof pdfBundle === 'function'
+            ? pdfBundle
+            : pdfBundle && typeof pdfBundle.default === 'function'
+              ? pdfBundle.default
+              : null;
 
-    if (typeof pdfGenerator !== 'function') {
+    if (!pdfGenerator) {
         downloadButton.disabled = true;
         downloadButton.setAttribute('aria-disabled', 'true');
         downloadButton.title = 'PDF download is currently unavailable.';
